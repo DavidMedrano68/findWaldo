@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+ol {
+  list-style-type: decimal;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+#root {
+  @apply flex flex-col items-start gap-20 relative w-screen h-[1185px] p-0;
+  background: #ffffff;
+}
+header {
+  @apply absolute w-full h-28 shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[0px_0px_20px_20px] left-0 top-0;
+  background: #d9d9d9;
+}
+main {
+  @apply absolute w-full h-[993px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] rounded-[20px_20px_0px_0px] left-0 top-48 flex flex-col justify-center items-center gap-[90px] px-7 py-[37px];
+  background: #d9d9d9;
+}
+.search {
+  @apply w-full h-[103.44px] rounded-[20px];
+  background: #404040;
+}
+#HeartDavid {
+  grid-row-start: 6;
+  grid-column-start: 4;
+}
+#pickleDavid {
+  grid-row-start: 6;
+  grid-column-start: 5;
+}
+#madJar {
+  grid-row-start: 6;
+  grid-column-start: 6;
+}
+#laughEm {
+  grid-row-start: 6;
+  grid-column-start: 7;
+}
+#owlDavid {
+  grid-row-start: 6;
+  grid-column-start: 8;
+}
+#ketchupDavid {
+  grid-row-start: 4;
+  grid-column-start: 4;
+}
+#minerDavid {
+  grid-row-start: 6;
+  grid-column-start: 10;
+}
+#treeDavid {
+  grid-row-start: 5;
+  grid-column-start: 11;
+}
+#EmNae {
+  grid-row-start: 5;
+  grid-column-start: 4;
+}
+#EmDown {
+  grid-row-start: 5;
+  grid-column-start: 3;
+}
+#skateEm {
+  grid-row-start: 5;
+  grid-column-start: 6;
+}
+#sillyEm {
+  grid-row-start: 5;
+  grid-column-start: 7;
+}
+#skaterDavid {
+  rotate: 45deg;
+  grid-row-start: 3;
+  grid-column-start: 5;
+}
+#scaredDavid {
+  grid-row-start: 5;
+  grid-column-start: 5;
+}
+#pigDavid {
+  grid-row-start: 6;
+  grid-column-start: 11;
+}
+#RoboCar {
+  grid-row-start: 4;
+  grid-column-start: 3;
+}
+#JumpCar {
+  grid-row-start: 6;
+  grid-column-start: 9;
+}
+#noCar {
+  grid-row-start: 4;
+  grid-column-start: 5;
+}
+#WatJar {
+  grid-row-start: 4;
+  grid-column-start: 1;
+}
+#coolCar {
+  rotate: -35deg;
+  grid-row-start: 3;
+  grid-column-start: 7;
+}
+#cozyDavid {
+  rotate: 45deg;
+  grid-row-start: 1;
+  grid-column-start: 9;
+}
+#pointEm {
+  grid-row-start: 2;
+  grid-column-start: 12;
+}
+#noseEm {
+  grid-row-start: 2;
+  grid-column-start: 11;
+}
+#davidPet {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+#tiredJar {
+  grid-row-start: 4;
+  grid-column-start: 9;
+}
+.playBtn,
+.closeBtn {
+  @apply rounded-[20px] p-1;
+  background: #d9d9d9;
+}
+.content {
+  @apply w-full h-[717px] rounded-[20px];
+  background: url("https://firebasestorage.googleapis.com/v0/b/findwaldo-7c0fc.appspot.com/o/background.jpg?alt=media&token=3a18f7c0-e83b-4a58-9e23-3970dfd4b0fe");
+  background-size: cover;
+  background-position: center;
+}
+.btn {
+  @apply rounded-[20px] p-1;
+  background: #404040;
+}
+h1 {
+  @apply text-xl text-black font-extrabold;
+}
